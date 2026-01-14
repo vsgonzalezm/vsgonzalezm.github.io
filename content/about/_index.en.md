@@ -6,10 +6,12 @@ draft: false
 
 <div class="about-layout">
   <div class="about-image">
-    <img src="/images/profile-placeholder.jpg" alt="Valentina González Madariaga" style="max-width: 100%; border-radius: 8px;">
-    <p style="margin-top: 1rem; font-style: italic; color: #95ccba;">Profile photo placeholder</p>
+    <img src="/images/foto_mia.jpeg.jpg" alt="Valentina González Madariaga" style="max-width: 100%; border-radius: 8px;">
+    <p style="margin-top: 1rem; font-style: italic; color: #95ccba;"
   </div>
   <div class="about-bio">
+
+    
     <h2>About Me</h2>
     <p>I am a PhD candidate in Sociology at Universidad Católica de Chile, specializing in social research methodology and data analysis. My work focuses on understanding complex social phenomena through rigorous use of quantitative, qualitative, and mixed methods.</p>
     <p>My research combines sociological theory with advanced data analysis techniques, aiming to generate knowledge that contributes to understanding social inequalities, urban dynamics, and sociocultural transformations in Latin America.</p>
