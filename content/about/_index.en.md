@@ -5,22 +5,19 @@ draft: false
 ---
 
 
-
-<div class="about-layout">
-  <div class="about-image">
+<div class="about-layout" style="display: flex; gap: 2rem; align-items: flex-start;">
+  <div class="about-image" style="flex-shrink: 0;">
     <img src="/images/foto_mia.jpeg" 
          alt="Valentina González Madariaga" 
          style="width: 280px; max-width: 100%; border-radius: 12px; border: 4px solid #5CAA92;">
-    <p style="margin-top: 1rem; font-style: italic; color: #5CAA92;">VGM</p>
+    <p style="margin-top:  1rem; font-style:  italic; color: #5CAA92;">VGM</p>
   </div>
   <div class="about-bio">
-
-<h2>About Me</h2>
+    <h2>About Me</h2>
     <p>I am a PhD candidate in Sociology at Universidad Católica de Chile, specializing in social research methodology and data analysis. My work focuses on understanding complex social phenomena through rigorous use of quantitative, qualitative, and mixed methods.</p>
     <p>My research combines sociological theory with advanced data analysis techniques, aiming to generate knowledge that contributes to understanding social inequalities, urban dynamics, and sociocultural transformations in Latin America.</p>
   </div>
 </div>
-
 <h2>Research Interests</h2>
 <div class="interest-grid">
   <div class="interest-card">
@@ -32,8 +29,8 @@ draft: false
     <p>Advanced statistical techniques, content analysis, interviews, and focus groups.</p>
   </div>
   <div class="interest-card">
-    <h3>Urban Sociology & Inequality</h3>
-    <p>Spatial segregation, social mobility, and territorial inequalities.</p>
+    <h3>Inequality</h3>
+    <p>social mobility, and territorial inequalities.tia</p>
   </div>
   <div class="interest-card">
     <h3>Social Data Science</h3>
@@ -51,18 +48,12 @@ draft: false
 
 <h2>Technical Skills</h2>
 <div class="skills-list">
-  <span class="skill-tag">Python</span>
   <span class="skill-tag">R</span>
-  <span class="skill-tag">SPSS</span>
-  <span class="skill-tag">SQL</span>
   <span class="skill-tag">Stata</span>
-  <span class="skill-tag">NVivo</span>
   <span class="skill-tag">Atlas.ti</span>
-  <span class="skill-tag">GeoPandas</span>
-  <span class="skill-tag">Tableau</span>
-  <span class="skill-tag">Power BI</span>
-  <span class="skill-tag">R Shiny</span>
+  <span class="skill-tag">Github</span>
   <span class="skill-tag">Git</span>
+   <span class="skill-tag">Latex</span>
 </div>
 
 <h2>Education</h2>
@@ -74,15 +65,15 @@ draft: false
 </div>
 
 <div class="education-item">
-  <h3>Master's in [Field of Study]</h3>
-  <p class="institution">[University]</p>
-  <p class="year">[Year]</p>
+  <h3>Master's in Social Sciences </h3>
+  <p class="institution">Universidad de Chile</p>
+  <p class="year">2018</p>
   <p>[Brief description or specialization]</p>
 </div>
 
 <div class="education-item">
-  <h3>Sociology</h3>
-  <p class="institution">[University]</p>
-  <p class="year">[Year]</p>
-  <p>[Undergraduate degree in Sociology or relevant focus]</p>
+  <h3>Philosophy</h3>
+  <p class="institution">Universidad de Chile</p>
+  <p class="year">2014</p>
+  <p>[Undergraduate degree in filosofia]</p>
 </div>
