@@ -1,11 +1,11 @@
 [home]
 other = "Inicio"
 
-[projects]
-other = "Proyectos"
-
 [about]
 other = "Sobre Mí"
+
+[projects]
+other = "Proyectos"
 
 [blog]
 other = "Blog"
@@ -14,7 +14,7 @@ other = "Blog"
 other = "Idioma"
 
 [subtitle]
-other = "Socióloga | PhD(c) | Metodología & Análisis de Datos"
+other = "PhD(c) en Sociología | Ciencias Sociales & Análisis de Datos"
 
 [view_projects]
 other = "Ver Proyectos"
