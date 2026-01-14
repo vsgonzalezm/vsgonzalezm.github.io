@@ -1,0 +1,35 @@
+[home]
+other = "Inicio"
+
+[projects]
+other = "Proyectos"
+
+[about]
+other = "Sobre Mí"
+
+[blog]
+other = "Blog"
+
+[language]
+other = "Idioma"
+
+[subtitle]
+other = "Socióloga | PhD(c) | Metodología & Análisis de Datos"
+
+[view_projects]
+other = "Ver Proyectos"
+
+[about_me]
+other = "Sobre Mí"
+
+[coming_soon]
+other = "Próximamente"
+
+[read_more]
+other = "Leer más"
+
+[contact]
+other = "Contacto"
+
+[copyright]
+other = "© 2026 Valentina González Madariaga. Todos los derechos reservados."

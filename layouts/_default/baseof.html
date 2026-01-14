@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ .Site.Language.Params.description }}">
+  <meta name="author" content="{{ .Site.Params.author }}">
+  <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  {{ $css := resources.Get "css/style.css" }}
+  <link rel="stylesheet" href="{{ $css.Permalink }}">
+</head>
+<body>
+  {{ if not .IsHome }}
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a></li>
+        <li><a href="{{ "projects" | relLangURL }}">{{ i18n "projects" }}</a></li>
+        <li><a href="{{ "about" | relLangURL }}">{{ i18n "about" }}</a></li>
+        <li><a href="{{ "blog" | relLangURL }}">{{ i18n "blog" }}</a></li>
+        <div class="language-switcher">
+          {{ if .IsTranslated }}
+            {{ range .Translations }}
+              <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            {{ end }}
+          {{ end }}
+          {{ if eq .Site.Language.Lang "es" }}
+            <a href="{{ .Permalink | replaceRE "^/es/" "/en/" }}" class="{{ if eq .Site.Language.Lang "en" }}active{{ end }}">EN</a>
+          {{ else }}
+            <a href="{{ .Permalink | replaceRE "^/en/" "/es/" }}" class="{{ if eq .Site.Language.Lang "es" }}active{{ end }}">ES</a>
+          {{ end }}
+        </div>
+      </ul>
+    </nav>
+  </header>
+  {{ end }}
+
+  {{ block "main" . }}{{ end }}
+
+  {{ if not .IsHome }}
+  <footer>
+    <p>{{ i18n "copyright" }}</p>
+  </footer>
+  {{ end }}
+</body>
+</html>

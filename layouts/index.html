@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ .Site.Language.Params.description }}">
+  <meta name="author" content="{{ .Site.Params.author }}">
+  <title>{{ .Site.Title }}</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  {{ $css := resources.Get "css/style.css" }}
+  <link rel="stylesheet" href="{{ $css.Permalink }}">
+</head>
+<body>
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+
+  <!-- Hero Content -->
+  <div class="hero-container">
+    <div class="hero-content">
+      <h1>Valentina González Madariaga</h1>
+      <p class="subtitle">{{ i18n "subtitle" }}</p>
+      <div class="hero-buttons">
+        <a href="{{ "projects" | relLangURL }}" class="btn">{{ i18n "projects" }}</a>
+        <a href="{{ "about" | relLangURL }}" class="btn btn-secondary">{{ i18n "about_me" }}</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- tsParticles via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2.12.0/tsparticles.engine.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+  <script>
+    tsParticles.load("particles-js", {
+      particles: {
+        number: {
+          value: 80,
+          density: {
+            enable: true,
+            value_area: 800
+          }
+        },
+        color: {
+          value: "#2c3e50"
+        },
+        shape: {
+          type: "circle"
+        },
+        opacity: {
+          value: 0.5,
+          random: false
+        },
+        size: {
+          value: 3,
+          random: true
+        },
+        line_linked: {
+          enable: true,
+          distance: 150,
+          color: "#2c3e50",
+          opacity: 0.4,
+          width: 1
+        },
+        move: {
+          enable: true,
+          speed: 1,
+          direction: "none",
+          random: false,
+          straight: false,
+          out_mode: "out",
+          bounce: false
+        }
+      },
+      interactivity: {
+        detect_on: "canvas",
+        events: {
+          onhover: {
+            enable: true,
+            mode: "grab"
+          },
+          onclick: {
+            enable: true,
+            mode: "push"
+          },
+          resize: true
+        },
+        modes: {
+          grab: {
+            distance: 140,
+            line_linked: {
+              opacity: 1
+            }
+          },
+          push: {
+            particles_nb: 4
+          }
+        }
+      },
+      retina_detect: true,
+      background: {
+        color: "#fff0cb"
+      }
+    });
+  </script>
+</body>
+</html>
