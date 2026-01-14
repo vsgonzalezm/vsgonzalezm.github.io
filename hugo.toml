@@ -1,0 +1,40 @@
+baseURL = "https://vsgonzalezm.github.io/"
+languageCode = "es"
+defaultContentLanguage = "es"
+title = "Valentina González Madariaga"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[languages]
+  [languages.es]
+    languageName = "Español"
+    weight = 1
+    title = "Valentina González Madariaga"
+    [languages.es.params]
+      description = "Socióloga | PhD(c) | Metodología & Análisis de Datos"
+  
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    title = "Valentina González Madariaga"
+    [languages.en.params]
+      description = "Sociologist | PhD(c) | Methodology & Data Analysis"
+
+[params]
+  author = "Valentina González Madariaga"
+  description = "PhD(c) en Sociología - Universidad Católica de Chile"
+
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML"]

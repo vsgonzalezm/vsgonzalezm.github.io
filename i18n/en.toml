@@ -1,0 +1,35 @@
+[home]
+other = "Home"
+
+[projects]
+other = "Projects"
+
+[about]
+other = "About"
+
+[blog]
+other = "Blog"
+
+[language]
+other = "Language"
+
+[subtitle]
+other = "Sociologist | PhD(c) | Methodology & Data Analysis"
+
+[view_projects]
+other = "View Projects"
+
+[about_me]
+other = "About Me"
+
+[coming_soon]
+other = "Coming Soon"
+
+[read_more]
+other = "Read more"
+
+[contact]
+other = "Contact"
+
+[copyright]
+other = "© 2026 Valentina González Madariaga. All rights reserved."
