@@ -6,8 +6,8 @@ draft: false
 
 <div class="about-layout">
   <div class="about-image">
-    <img src="/images/profile-placeholder.jpg" alt="Valentina González Madariaga" style="max-width: 100%; border-radius: 8px;">
-    <p style="margin-top: 1rem; font-style: italic; color: #95ccba;">Espacio para foto de perfil</p>
+    <img src="/images/foto_mia.jpeg" alt="Valentina González Madariaga" style="max-width: 100%; border-radius: 8px;">
+    <p style="margin-top: 1rem; font-style: italic; color: #95ccba;">VGM</p>
   </div>
   <div class="about-bio">
     <h2>Acerca de Mí</h2>
