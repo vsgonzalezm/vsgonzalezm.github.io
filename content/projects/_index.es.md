@@ -10,7 +10,6 @@ draft: false
     </header>
     
     <div class="projects-grid">
-        <!-- PROYECTO 1: MICARE -->
         <div class="project-card">
             <h3 class="project-title">
                 <a href="https://www.micare.cl" target="_blank" rel="noopener">MICARE - Investigadora Doctoral</a>
@@ -27,16 +26,15 @@ draft: false
                 <span class="tag">Sociología</span>
             </div>
         </div>
-        
-        <!-- PROYECTO 2: Redes Cuidadoras -->
+
         <div class="project-card">
             <h3 class="project-title">
                 <a href="https://www.redescuidadoras.com" target="_blank" rel="noopener">Redes Cuidadoras - Tesista</a>
             </h3>
             <p class="project-meta"><strong>FONDECYT Regular N°1230437</strong> (2023-2027)</p>
             <p class="project-description">
-                "Redes Personales y Capital Social de Mujeres Cuidadoras: Midiendo sus Cambios en el Tiempo e Impacto en Bienestar y Salud". 
-                Mi foco está en la <strong>feminización y estratificación del cuidado</strong>.
+                "Redes Personales y Capital Social de Mujeres Cuidadoras:  Midiendo sus Cambios en el Tiempo e Impacto en Bienestar y Salud".  
+                Mi foco está en la <strong>feminización y estratificación del cuidado</strong>. 
             </p>
             <div class="project-tags">
                 <span class="tag">Análisis de Redes</span>
@@ -44,8 +42,7 @@ draft: false
                 <span class="tag">Métodos Mixtos</span>
             </div>
         </div>
-        
-        <!-- PROYECTO 3: Costo de Maternar -->
+
         <div class="project-card">
             <h3 class="project-title">
                 <a href="https://www.linkedin.com/company/costo-de-maternar/" target="_blank" rel="noopener">Costo de Maternar - Asistente de Investigación</a>
