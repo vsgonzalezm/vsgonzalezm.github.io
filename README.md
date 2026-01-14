@@ -45,4 +45,4 @@ Sitio web profesional
 └── hugo.toml            # Configuración de Hugo
 ```
 
-ón](https://gohugo.io/documentation/)
+
