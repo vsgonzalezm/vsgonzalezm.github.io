@@ -10,7 +10,6 @@ draft: false
     </header>
     
     <div class="projects-grid">
-        <!-- PROYECTO 1: MICARE -->
         <div class="project-card">
             <h3 class="project-title">
                 <a href="https://www.micare.cl" target="_blank" rel="noopener">MICARE - Doctoral Researcher</a>
@@ -27,8 +26,7 @@ draft: false
                 <span class="tag">Sociology</span>
             </div>
         </div>
-        
-        <!-- PROYECTO 2: Redes Cuidadoras -->
+
         <div class="project-card">
             <h3 class="project-title">
                 <a href="https://www.redescuidadoras.com" target="_blank" rel="noopener">Caregiving Networks - Thesis Researcher</a>
@@ -44,8 +42,7 @@ draft: false
                 <span class="tag">Mixed Methods</span>
             </div>
         </div>
-        
-        <!-- PROYECTO 3: Costo de Maternar -->
+
         <div class="project-card">
             <h3 class="project-title">
                 <a href="https://www.linkedin.com/company/costo-de-maternar/" target="_blank" rel="noopener">Cost of Motherhood - Research Assistant</a>
@@ -53,7 +50,7 @@ draft: false
             <p class="project-meta"><strong>FONDECYT Iniciación N°11251627</strong></p>
             <p class="project-description">
                 In this project, I support <strong>experimental design</strong> and the application of quantitative tools 
-                to study inequalities in the labor market.
+                to study inequalities in the labor market. 
             </p>
             <div class="project-tags">
                 <span class="tag">Experimental Design</span>
