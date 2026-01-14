@@ -29,8 +29,8 @@ draft: false
     <p>Técnicas estadísticas avanzadas, análisis de contenido, entrevistas y grupos focales.</p>
   </div>
   <div class="interest-card">
-    <h3>Sociología Urbana y Desigualdad</h3>
-    <p>Segregación espacial, movilidad social y desigualdades territoriales.</p>
+    <h3> Desigualdad</h3>
+    <p>Movilidad social </p>
   </div>
   <div class="interest-card">
     <h3>Ciencia de Datos Sociales</h3>
@@ -48,17 +48,11 @@ draft: false
 
 <h2>Habilidades Técnicas</h2>
 <div class="skills-list">
-  <span class="skill-tag">Python</span>
   <span class="skill-tag">R</span>
-  <span class="skill-tag">SPSS</span>
-  <span class="skill-tag">SQL</span>
   <span class="skill-tag">Stata</span>
-  <span class="skill-tag">NVivo</span>
   <span class="skill-tag">Atlas.ti</span>
-  <span class="skill-tag">GeoPandas</span>
-  <span class="skill-tag">Tableau</span>
-  <span class="skill-tag">Power BI</span>
-  <span class="skill-tag">R Shiny</span>
+  <span class="skill-tag">Latex</span>
+  <span class="skill-tag">Github</span>
   <span class="skill-tag">Git</span>
 </div>
 
@@ -71,15 +65,15 @@ draft: false
 </div>
 
 <div class="education-item">
-  <h3>Magíster en [Área de Estudio]</h3>
-  <p class="institution">[Universidad]</p>
-  <p class="year">[Año]</p>
+  <h3>Magíster en Ciencias Sociales</h3>
+  <p class="institution">Universidad de Chile</p>
+  <p class="year"> 2018</p>
   <p>[Breve descripción o especialización]</p>
 </div>
 
 <div class="education-item">
-  <h3>Sociología</h3>
-  <p class="institution">[Universidad]</p>
-  <p class="year">[Año]</p>
+  <h3>Licenciatura en Filosofía</h3>
+  <p class="institution">Universidad de Chile</p>
+  <p class="year">2014</p>
   <p>[Pregrado en Sociología o mención relevante]</p>
 </div>
