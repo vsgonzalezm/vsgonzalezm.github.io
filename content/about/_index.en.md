@@ -7,7 +7,7 @@ draft: false
 <div class="about-layout">
   <div class="about-image">
     <img src="/images/foto_mia.jpeg.jpg" alt="Valentina González Madariaga" style="max-width: 100%; border-radius: 8px;">
-    <p style="margin-top: 1rem; font-style: italic; color: #95ccba;"
+    <p style="margin-top: 1rem; font-style: italic; color: #95ccba;"z
   </div>
   <div class="about-bio">
 
