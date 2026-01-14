@@ -1,13 +1,12 @@
 /* Wes Anderson Soviet Color Palette */
 :root {
-  --color-primary: #a7ba42;     /* Verde Oliva */
-  --color-secondary: #95ccba;   /* Menta */
-  --color-accent: #f2cc84;      /* Amarillo Arena */
-  --color-bg: #fff0cb;          /* Crema/Beige Fondo */
-  --color-highlight: #ffdede;   /* Rosa Pálido */
-  --color-text: #2c3e50;        /* Gris Oscuro */
-  --font-heading: 'Oswald', sans-serif;
-  --font-body: 'Montserrat', sans-serif;
+  --color-primary: #95ccba;      /* Menta (antes era secondary) */
+  --color-secondary: #f2cc84;    /* Amarillo Arena (antes era accent) */
+  --color-accent: #ffdede;       /* Rosa Pálido (antes era highlight) */
+  --color-bg: #fff0cb;           /* Crema */
+  --color-text: #2c3e50;         /* Gris Oscuro */
+  --font-heading: 'Rationale', sans-serif;
+  --font-body: 'Rationale', sans-serif;
 }
 
 /* Reset & Base Styles */
@@ -27,7 +26,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 1rem;
 }
 
@@ -65,7 +64,7 @@ nav {
 .logo {
   font-family: var(--font-heading);
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--color-primary);
 }
 
@@ -77,7 +76,7 @@ nav {
 }
 
 .nav-menu a {
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
   font-size: 0.9rem;
   letter-spacing: 0.05em;
@@ -96,7 +95,7 @@ nav {
   border: 2px solid var(--color-primary);
   border-radius: 4px;
   font-size: 0.85rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .language-switcher a:hover,
@@ -145,7 +144,7 @@ nav {
   font-size: 1.25rem;
   color: var(--color-text);
   margin-bottom: 2rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .hero-buttons {
@@ -162,7 +161,7 @@ nav {
   color: var(--color-primary);
   font-family: var(--font-heading);
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
   border-radius: 4px;
   cursor: pointer;
@@ -174,7 +173,7 @@ nav {
   background-color: var(--color-primary);
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(167, 186, 66, 0.4);
+  box-shadow: 0 5px 15px rgba(149, 204, 186, 0.4);
 }
 
 .btn-secondary {
@@ -230,7 +229,7 @@ main {
   margin-top: 2rem;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid var(--color-accent);
+  border-bottom: 3px solid var(--color-secondary);
 }
 
 .about-bio p {
@@ -256,7 +255,7 @@ main {
 
 .interest-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(167, 186, 66, 0.3);
+  box-shadow: 0 8px 20px rgba(149, 204, 186, 0.3);
 }
 
 .interest-card h3 {
@@ -278,7 +277,7 @@ main {
   color: var(--color-text);
   padding: 0.5rem 1rem;
   border-radius: 20px;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.9rem;
   border: 2px solid var(--color-text);
 }
@@ -300,7 +299,7 @@ main {
 
 .education-item .institution {
   color: var(--color-secondary);
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 0.5rem;
 }
 
@@ -327,7 +326,7 @@ main {
 
 .project-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 25px rgba(167, 186, 66, 0.4);
+  box-shadow: 0 12px 25px rgba(255, 222, 222, 0.4);
 }
 
 .project-card h3 {
@@ -349,12 +348,12 @@ main {
 }
 
 .tag {
-  background: var(--color-highlight);
+  background: var(--color-accent);
   color: var(--color-text);
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
   font-size: 0.85rem;
-  font-weight: 600;
+  font-weight: 400;
   border: 2px solid var(--color-primary);
 }
 
@@ -458,7 +457,7 @@ footer p {
   color: var(--color-primary);
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 4px solid var(--color-accent);
+  border-bottom: 4px solid var(--color-secondary);
 }
 
 /* Utility Classes */
