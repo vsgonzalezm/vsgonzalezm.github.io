@@ -472,3 +472,20 @@ footer p {
 .mb-2 {
   margin-bottom: 2rem;
 }
+
+/* Project Title Links */
+.project-title a {
+    color: var(--color-text);
+    transition: var(--transition);
+}
+
+.project-title a:hover {
+    color: var(--color-primary);
+}
+
+.project-meta {
+    font-size: 0.9rem;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
