@@ -4,8 +4,8 @@ date: 2026-01-14
 draft: false
 ---
 
-<div class="about-layout">
-  <div class="about-image">
+<div class="about-layout" style="display: flex; gap:  2rem; align-items:  flex-start;">
+  <div class="about-image" style="flex-shrink: 0;">
     <img src="/images/foto_mia.jpeg" 
          alt="Valentina González Madariaga" 
          style="width: 280px; max-width: 100%; border-radius: 12px; border: 4px solid #5CAA92;">
@@ -13,7 +13,7 @@ draft: false
   </div>
   <div class="about-bio">
     <h2>Acerca de Mí</h2>
-    <p>Soy PhD(c) en Sociología de la Universidad Católica de Chile, con especialización en metodología de investigación social y análisis de datos. Mi trabajo se centra en comprender fenómenos sociales complejos mediante el uso riguroso de métodos cuantitativos, cualitativos y mixtos.</p>
+    <p>Soy PhD(c) en Sociología de la Universidad Católica de Chile, con especialización en metodología de investigación social y análisis de datos.  Mi trabajo se centra en comprender fenómenos sociales complejos mediante el uso riguroso de métodos cuantitativos, cualitativos y mixtos.</p>
     <p>Mi investigación combina teoría sociológica con técnicas avanzadas de análisis de datos, buscando generar conocimiento que contribuya a la comprensión de desigualdades sociales, dinámicas urbanas y transformaciones socioculturales en América Latina.</p>
   </div>
 </div>
