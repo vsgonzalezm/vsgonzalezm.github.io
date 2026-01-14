@@ -22,6 +22,12 @@ other = "View Projects"
 [about_me]
 other = "About Me"
 
+[aboutme]
+other = "About Me"
+
+[projects_button]
+other = "Projects"
+
 [coming_soon]
 other = "Coming Soon"
 

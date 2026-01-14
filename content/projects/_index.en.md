@@ -4,44 +4,62 @@ date: 2026-01-14
 draft: false
 ---
 
-<div class="projects-grid">
-  <div class="project-card">
-    <h3>Urban Inequality Analysis in Santiago</h3>
-    <p>Research on residential segregation patterns and unequal access to urban services using geospatial analysis and census data.</p>
-    <p><strong>Methodology:</strong> Spatial analysis, multilevel regression, geographic visualization.</p>
-    <div class="project-tags">
-      <span class="tag">Python</span>
-      <span class="tag">GeoPandas</span>
-      <span class="tag">QGIS</span>
-      <span class="tag">Spatial Analysis</span>
+<div class="content-section">
+    <header class="section-header">
+        <h1 class="section-title">Research Projects</h1>
+    </header>
+    
+    <div class="projects-grid">
+        <!-- PROYECTO 1: MICARE -->
+        <div class="project-card">
+            <h3 class="project-title">
+                <a href="https://www.micare.cl" target="_blank" rel="noopener">MICARE - Doctoral Researcher</a>
+            </h3>
+            <p class="project-meta"><strong>Research Line:</strong> Sociocultural aspects of care and life course perspective</p>
+            <p class="project-description">
+                My focus centers on <strong>inequalities in childcare</strong>, 
+                studying how care can increase the economic and social vulnerability of women caregivers, 
+                as well as undermine their physical and mental health conditions.
+            </p>
+            <div class="project-tags">
+                <span class="tag">Childcare</span>
+                <span class="tag">Gender Inequality</span>
+                <span class="tag">Sociology</span>
+            </div>
+        </div>
+        
+        <!-- PROYECTO 2: Redes Cuidadoras -->
+        <div class="project-card">
+            <h3 class="project-title">
+                <a href="https://www.redescuidadoras.com" target="_blank" rel="noopener">Caregiving Networks - Thesis Researcher</a>
+            </h3>
+            <p class="project-meta"><strong>FONDECYT Regular N°1230437</strong> (2023-2027)</p>
+            <p class="project-description">
+                "Personal Networks and Social Capital of Women Caregivers: Measuring Changes Over Time and Impact on Well-being and Health". 
+                My focus is on the <strong>feminization and stratification of care</strong>.
+            </p>
+            <div class="project-tags">
+                <span class="tag">Network Analysis</span>
+                <span class="tag">Social Capital</span>
+                <span class="tag">Mixed Methods</span>
+            </div>
+        </div>
+        
+        <!-- PROYECTO 3: Costo de Maternar -->
+        <div class="project-card">
+            <h3 class="project-title">
+                <a href="https://www.linkedin.com/company/costo-de-maternar/" target="_blank" rel="noopener">Cost of Motherhood - Research Assistant</a>
+            </h3>
+            <p class="project-meta"><strong>FONDECYT Iniciación N°11251627</strong></p>
+            <p class="project-description">
+                In this project, I support <strong>experimental design</strong> and the application of quantitative tools 
+                to study inequalities in the labor market.
+            </p>
+            <div class="project-tags">
+                <span class="tag">Experimental Design</span>
+                <span class="tag">Quantitative Analysis</span>
+                <span class="tag">Labor Market</span>
+            </div>
+        </div>
     </div>
-  </div>
-
-  <div class="project-card">
-    <h3>Interactive Dashboard for Social Indicators</h3>
-    <p>Development of an interactive web application to visualize and explore socioeconomic indicators at the municipal level in Chile.</p>
-    <p><strong>Methodology:</strong> Web development, data visualization, descriptive statistics.</p>
-    <div class="project-tags">
-      <span class="tag">R</span>
-      <span class="tag">Shiny</span>
-      <span class="tag">ggplot2</span>
-      <span class="tag">Visualization</span>
-    </div>
-  </div>
-
-  <div class="project-card">
-    <h3>Digital Youth: Mixed Methods Study</h3>
-    <p>Research on digital practices among youth combining representative surveys with in-depth interviews and content analysis.</p>
-    <p><strong>Methodology:</strong> Mixed methods, statistical analysis, thematic qualitative analysis.</p>
-    <div class="project-tags">
-      <span class="tag">SPSS</span>
-      <span class="tag">NVivo</span>
-      <span class="tag">Mixed Methods</span>
-      <span class="tag">Qualitative Analysis</span>
-    </div>
-  </div>
-</div>
-
-<div class="mt-2 text-center">
-  <p style="color: #95ccba; font-size: 1.1rem;">More projects coming soon...</p>
 </div>
