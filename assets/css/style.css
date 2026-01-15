@@ -6,7 +6,7 @@
   --color-bg: #ffffff;           /* Blanco */
   --color-text: #2c3e50;         /* Gris Oscuro */
   --font-heading: 'Geo', sans-serif;
-  --font-body: 'Aldrich', sans-serif;
+  --font-body: 'Geo', sans-serif;
 }
 
 /* Reset & Base Styles */
@@ -160,7 +160,7 @@ nav {
 .btn {
   padding: 1rem 2rem;
   border: 3px solid var(--color-secondary);
-  background-color: var(--color-secondary);
+  background-color:  var(--color-primary);
   color: white;
   font-family: var(--font-heading);
   font-size: 1.1rem;
