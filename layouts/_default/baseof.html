@@ -23,23 +23,24 @@
       <div class="logo">
         <a href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
       </div>
-      <ul class="nav-menu">
-        <li><a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a></li>
-                <li><a href="{{ "about" | relLangURL }}">{{ i18n "about" }}</a></li>
-        <li><a href="{{ "projects" | relLangURL }}">{{ i18n "projects" }}</a></li>
-        <li><a href="{{ "blog" | relLangURL }}">{{ i18n "blog" }}</a></li>
-        <div class="language-switcher">
-          {{ if .IsTranslated }}
-            {{ range .Translations }}
-              <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-            {{ end }}
-          {{ end }}
-          {{ if eq .Site.Language.Lang "es" }}
-            <a href="{{ .Permalink | replaceRE "^/es/" "/en/" }}" class="{{ if eq .Site.Language.Lang "en" }}active{{ end }}">EN</a>
-          {{ else }}
-            <a href="{{ .Permalink | replaceRE "^/en/" "/es/" }}" class="{{ if eq .Site.Language.Lang "es" }}active{{ end }}">ES</a>
-          {{ end }}
-        </div>
+   <ul class="nav-menu">
+  <li><a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a></li>
+  <li><a href="{{ "about" | relLangURL }}">{{ i18n "about" }}</a></li>
+  <li><a href="{{ "projects" | relLangURL }}">{{ i18n "projects" }}</a></li>
+  <li><a href="{{ "blog" | relLangURL }}">{{ i18n "blog" }}</a></li>
+</ul>
+<div class="language-switcher">
+  {{ if .IsTranslated }}
+    {{ range .Translations }}
+      <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+    {{ end }}
+  {{ end }}
+  {{ if eq .Site.Language.Lang "es" }}
+    <a href="{{ .Permalink | replaceRE "^/es/" "/en/" }}" class="{{ if eq .Site.Language.Lang "en" }}active{{ end }}">EN</a>
+  {{ else }}
+    <a href="{{ .Permalink | replaceRE "^/en/" "/es/" }}" class="{{ if eq .Site.Language.Lang "es" }}active{{ end }}">ES</a>
+  {{ end }}
+</div>
       </ul>
     </nav>
   </header>
