@@ -5,7 +5,7 @@
   --color-bg: #04060B;         /* Fondo negro casi puro */
   --color-text: #ffffff;       /* Texto blanco */
   --font-heading: 'Geo', sans-serif;
-  --font-body: 'Aldrich', sans-serif;
+  --font-body:'Roboto Mono', monospace;
 }
 
 /* Reset & Base Styles */
