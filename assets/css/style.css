@@ -1,7 +1,7 @@
 /* Wes Anderson Soviet Color Palette - White Background */
 :root {
   --color-primary: #5CAA92;    /* Menta */
-  --color-accent: #9bb3ae;     /* Nuevo acento */
+  --color-accent: #9bb3ae;     /* Nuevo acento */f
   --color-bg: #04060B;         /* Fondo negro casi puro */
   --color-text: #ffffff;       /* Texto blanco */
   --font-heading: 'Geo', sans-serif;
@@ -97,7 +97,7 @@ nav {
   font-weight:  400;
 }
 
-. language-switcher a:hover,
+.language-switcher a:hover,
 .language-switcher a.active {
   background-color: var(--color-primary);
   color: white;
@@ -179,7 +179,7 @@ nav {
   box-shadow: 0 5px 15px rgba(92, 170, 146, 0.4);  /* Sombra menta */
 }
 
-. btn-secondary {
+.btn-secondary {
   border-color: var(--color-accent);
   color: var(--color-accent);
 }
@@ -203,7 +203,7 @@ main {
 }
 
 /* About Page */
-. about-layout {
+.about-layout {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 3rem;
@@ -252,7 +252,7 @@ main {
 }
 
 .interest-card {
-  background:  #f8f9fa;  /* Fondo gris claro para contrastar con blanco */
+  background:  var(--color-bg);  /* Fondo gris claro para contrastar con blanco */
   padding: 1.5rem;
   border: 3px solid var(--color-primary);
   border-radius: 8px;
@@ -263,7 +263,9 @@ main {
 .interest-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(92, 170, 146, 0.3);  /* Sombra menta */
-  background:  white;
+  background: rgba(27, 32, 36, 0.92); /* gris oscuro translúcido */
+  /* O puedes usar: background: var(--color-card); */
+  color: var(--color-text); /* asegura texto blanco en hover */
 }
 
 .interest-card h3 {
@@ -308,7 +310,7 @@ main {
 font-family: var(--font-heading);  /* <-- AGREGAR AQUÍ */
 }
 
-.education-item . institution {
+.education-item .institution {
   color: var(--color-accent);
   font-weight: 400;
   margin-bottom: 0.5rem;
@@ -351,7 +353,7 @@ font-family: var(--font-heading);  /* <-- AGREGAR AQUÍ */
   font-family: var(--font-heading);  /* <-- AGREGAR AQUÍ */
 }
 
-. project-card p {
+.project-card p {
   margin-bottom: 1rem;
   color: var(--color-text);
   font-family: var(--font-body);     /* <-- AGREGAR AQUÍ */
@@ -375,7 +377,7 @@ font-family: var(--font-heading);  /* <-- AGREGAR AQUÍ */
  font-family: var(--font-body);     /* <-- AGREGAR AQUÍ */
 }
 
-. tag:hover {
+.tag:hover {
   background:  var(--color-accent);  /* Amarillo al hover */
 }
 
@@ -429,7 +431,7 @@ footer p {
     padding-top: 0.5rem;
   }
 
-  . hero-content h1 {
+  .hero-content h1 {
     font-size: 2rem;
   }
 
@@ -468,7 +470,7 @@ footer p {
     font-size:  1rem;
   }
 
-  . container {
+  .container {
     padding: 2rem 1rem;
   }
 }
@@ -505,7 +507,7 @@ footer p {
     color: var(--color-primary);
 }
 
-. project-meta {
+.project-meta {
     font-size: 0.9rem;
     color: var(--color-text);
     margin-bottom: 1rem;
