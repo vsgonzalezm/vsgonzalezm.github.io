@@ -6,9 +6,6 @@ Sitio web profesional
 
 
 - **Menta** (#95ccba)
-- **Amarillo Arena** (#f2cc84)
-- **Crema** (#fff0cb): Fondo
-- **Rosa Pálido** (#ffdede)
 - **Gris Oscuro** (#2c3e50)
 
 
