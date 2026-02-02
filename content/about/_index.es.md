@@ -25,20 +25,12 @@ draft: false
     <p>Diseño de investigación, epistemología y filosofía de las ciencias sociales.</p>
   </div>
   <div class="interest-card">
-    <h3>Análisis Cuantitativo y Cualitativo</h3>
-    <p>Técnicas estadísticas avanzadas, análisis de contenido, entrevistas y grupos focales.</p>
-  </div>
-  <div class="interest-card">
     <h3> Desigualdad</h3>
-    <p>Movilidad social </p>
+    <p>trayectorias de vida, estatrificación social, desigualdad de género </p>
   </div>
   <div class="interest-card">
     <h3>Ciencia de Datos Sociales</h3>
     <p>Aplicación de técnicas computacionales al análisis de fenómenos sociales.</p>
-  </div>
-  <div class="interest-card">
-    <h3>Métodos Mixtos</h3>
-    <p>Integración de aproximaciones cualitativas y cuantitativas en investigación social.</p>
   </div>
   <div class="interest-card">
     <h3>Visualización de Datos</h3>
@@ -61,6 +53,12 @@ draft: false
   <h3>Doctorado en Sociología (c)</h3>
   <p class="institution">Universidad Católica de Chile</p>
   <p class="year">En curso</p>
+  <p>Tesis: [Espacio para completar título de tesis]</p>
+</div>
+
+  <h3>Magíster en Sociología (c)</h3>
+  <p class="institution">Universidad Católica de Chile</p>
+  <p class="year">2022</p>
   <p>Tesis: [Espacio para completar título de tesis]</p>
 </div>
 
