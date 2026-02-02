@@ -20,17 +20,21 @@ draft: false
 </div>
 <h2>Research Interests</h2>
 <div class="interest-grid">
+  
   <div class="interest-card">
     <h3>Social Research Methodology</h3>
     <p>Research design, epistemology, and philosophy of social sciences.</p>
   </div>
+  
   <div class="interest-card">
     <h3>Inequality</h3>
     <p>trajectories, social stratification</p>
   </div>
+  
   <div class="interest-card">
     <h3>Social Data Science</h3>
     <p>Application of computational techniques to social phenomena analysis.</p>
+    
   <div class="interest-card">
     <h3>Data Visualization</h3>
     <p>Effective communication of results through interactive graphics and infographics.</p>
@@ -61,7 +65,6 @@ draft: false
   <p class="year">2022</p>
   <p>Thesis: [Space to complete thesis title]</p>
 </div>
-
 
 <div class="education-item">
   <h3>Master's in Social Sciences </h3>
