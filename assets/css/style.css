@@ -1,7 +1,7 @@
 /* Paleta */
 :root {
   --color-primary: #5CAA92;    /* Menta */
-  --color-accent: #9bb3ae;     /* Nuevo acento *
+  --color-accent: #9bb3ae;     /* Nuevo acento */
   --color-bg: #04060B;         /* Fondo negro casi puro */
   --color-text: #ffffff;       /* Texto blanco */
   --font-heading: 'Geo', sans-serif;
@@ -13,6 +13,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* CAMBIO: Fondo negro para todo el sitio - html, body, main, container */
+html {
+  background-color: var(--color-bg) !important;
 }
 
 body, main, .container {
@@ -340,7 +345,7 @@ font-family: var(--font-heading);  /* <-- AGREGAR AQUÍ */
 .project-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 25px rgba(92, 170, 146, 0.3);  /* Sombra menta */
-  background: white;
+  background: #1a1a1a;  /* CAMBIO: Fondo negro en hover (antes era white) */
   border-color: var(--color-accent);  /* Borde amarillo al hover */
 }
 
