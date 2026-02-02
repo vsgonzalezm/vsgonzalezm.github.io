@@ -14,30 +14,27 @@ draft: false
   </div>
   <div class="about-bio">
     <h2>About Me</h2>
-    <p>I am a PhD candidate in Sociology at Universidad Católica de Chile, specializing in social research methodology and data analysis. My work focuses on understanding complex social phenomena through rigorous use of quantitative, qualitative, and mixed methods.</p>
+    <p>I am a PhD candidate in Sociology at Universidad Católica de Chile, specializing in social research methodology and data analysis. My work focuses on understanding complex social phenomena through rigorous use of quantitative and mixed methods.</p>
     <p>My research combines sociological theory with advanced data analysis techniques, aiming to generate knowledge that contributes to understanding social inequalities, urban dynamics, and sociocultural transformations in Latin America.</p>
   </div>
 </div>
-<h2>Research Interests</h2>
+<h2>Areas of Interest</h2>
 <div class="interest-grid">
-  
   <div class="interest-card">
     <h3>Social Research Methodology</h3>
-    <p>Research design, epistemology, and philosophy of social sciences.</p>
+    <p>Research design, epistemology, and philosophy of the social sciences.</p>
   </div>
-  
   <div class="interest-card">
     <h3>Inequality</h3>
-    <p>trajectories, social stratification</p>
+    <p>Life trajectories, social stratification, gender inequality.</p>
   </div>
-  
   <div class="interest-card">
     <h3>Social Data Science</h3>
-    <p>Application of computational techniques to social phenomena analysis.</p>
-    
+    <p>Application of computational techniques to the analysis of social phenomena.</p>
+  </div>
   <div class="interest-card">
     <h3>Data Visualization</h3>
-    <p>Effective communication of results through interactive graphics and infographics.</p>
+    <p>Effective communication of results through interactive charts and infographics.</p>
   </div>
 </div>
 
@@ -46,34 +43,40 @@ draft: false
   <span class="skill-tag">R</span>
   <span class="skill-tag">Stata</span>
   <span class="skill-tag">Atlas.ti</span>
+  <span class="skill-tag">Latex</span>
   <span class="skill-tag">Github</span>
   <span class="skill-tag">Git</span>
-   <span class="skill-tag">Latex</span>
 </div>
 
 <h2>Education</h2>
+
 <div class="education-item">
   <h3>PhD in Sociology (c)</h3>
-  <p class="institution">Universidad Católica de Chile</p>
-  <p class="year">In Progress</p>
+  <p class="institution">Pontificia Universidad Católica de Chile</p>
+  <p class="year">In progress</p>
   <p>Thesis: [Space to complete thesis title]</p>
 </div>
 
 <div class="education-item">
-  <h3> Master in Sociology (c)</h3>
-  <p class="institution">Universidad Católica de Chile</p>
+  <h3>Master’s in Sociology</h3>
+  <p class="institution">Pontificia Universidad Católica de Chile</p>
   <p class="year">2022</p>
   <p>Thesis: [Space to complete thesis title]</p>
 </div>
 
 <div class="education-item">
-  <h3>Master's in Social Sciences </h3>
+  <h3>Master’s in Social Sciences</h3>
   <p class="institution">Universidad de Chile</p>
   <p class="year">2018</p>
   <p>[Brief description or specialization]</p>
 </div>
 
 <div class="education-item">
+  <h3>Bachelor’s in Philosophy</h3>
+  <p class="institution">Universidad de Chile</p>
+  <p class="year">2014</p>
+  <p>[Undergraduate in Sociology or relevant mention]</p>
+</div>n-item">
   <h3>Philosophy</h3>
   <p class="institution">Universidad de Chile</p>
   <p class="year">2014</p>
