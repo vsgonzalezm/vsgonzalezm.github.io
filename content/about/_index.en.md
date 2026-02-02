@@ -25,21 +25,12 @@ draft: false
     <p>Research design, epistemology, and philosophy of social sciences.</p>
   </div>
   <div class="interest-card">
-    <h3>Quantitative & Qualitative Analysis</h3>
-    <p>Advanced statistical techniques, content analysis, interviews, and focus groups.</p>
-  </div>
-  <div class="interest-card">
     <h3>Inequality</h3>
-    <p>social mobility, and territorial inequalities.tia</p>
+    <p>trajectories, social stratification</p>
   </div>
   <div class="interest-card">
     <h3>Social Data Science</h3>
     <p>Application of computational techniques to social phenomena analysis.</p>
-  </div>
-  <div class="interest-card">
-    <h3>Mixed Methods</h3>
-    <p>Integration of qualitative and quantitative approaches in social research.</p>
-  </div>
   <div class="interest-card">
     <h3>Data Visualization</h3>
     <p>Effective communication of results through interactive graphics and infographics.</p>
