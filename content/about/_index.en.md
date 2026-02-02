@@ -56,6 +56,14 @@ draft: false
 </div>
 
 <div class="education-item">
+  <h3> Master in Sociology (c)</h3>
+  <p class="institution">Universidad Católica de Chile</p>
+  <p class="year">2022</p>
+  <p>Thesis: [Space to complete thesis title]</p>
+</div>
+
+
+<div class="education-item">
   <h3>Master's in Social Sciences </h3>
   <p class="institution">Universidad de Chile</p>
   <p class="year">2018</p>
