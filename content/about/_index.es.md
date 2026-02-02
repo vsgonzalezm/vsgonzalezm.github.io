@@ -49,6 +49,7 @@ draft: false
 </div>
 
 <h2>Educación</h2>
+
 <div class="education-item">
   <h3>Doctorado en Sociología (c)</h3>
   <p class="institution">Universidad Católica de Chile</p>
@@ -56,7 +57,8 @@ draft: false
   <p>Tesis: [Espacio para completar título de tesis]</p>
 </div>
 
-  <h3>Magíster en Sociología (c)</h3>
+<div class="education-item">
+  <h3>Magíster en Sociología </h3>
   <p class="institution">Universidad Católica de Chile</p>
   <p class="year">2022</p>
   <p>Tesis: [Espacio para completar título de tesis]</p>
@@ -65,7 +67,7 @@ draft: false
 <div class="education-item">
   <h3>Magíster en Ciencias Sociales</h3>
   <p class="institution">Universidad de Chile</p>
-  <p class="year"> 2018</p>
+  <p class="year">2018</p>
   <p>[Breve descripción o especialización]</p>
 </div>
 
