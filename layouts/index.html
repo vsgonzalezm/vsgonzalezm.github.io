@@ -35,10 +35,14 @@
   <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2.12.0/tsparticles.engine.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
   <script>
+    // Responsive particle count based on screen width
+    const isMobile = window.innerWidth <= 768;
+    const particleCount = isMobile ? 30 : 80;
+
     tsParticles.load("particles-js", {
       particles: {
         number: {
-          value: 80,
+          value: particleCount,
           density: {
             enable: true,
             value_area: 800
@@ -82,7 +86,7 @@
         detect_on: "canvas",
         events: {
           onhover: {
-            enable: true,
+            enable: !isMobile, // Disable hover on mobile for better performance
             mode: "grab"
           },
           onclick: {
@@ -93,13 +97,13 @@
         },
         modes: {
           grab: {
-            distance: 140,
+            distance: isMobile ? 100 : 140,
             line_linked: {
               opacity: 1
             }
           },
           push: {
-            particles_nb: 4
+            particles_nb: isMobile ? 2 : 4
           }
         }
       },
