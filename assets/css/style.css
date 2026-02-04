@@ -414,6 +414,34 @@ footer p {
 }
 
 /* Responsive Design */
+/* Tablet Breakpoint */
+@media (max-width: 992px) {
+  .container {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .hero-content {
+    padding: 2.5rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content .subtitle {
+    font-size: 1.1rem;
+  }
+
+  main {
+    margin-top: 100px;
+  }
+
+  .about-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile Breakpoint */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -423,7 +451,8 @@ footer p {
 
   .nav-menu {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
+    text-align: center;
   }
 
   .language-switcher {
@@ -431,7 +460,12 @@ footer p {
     padding-left: 0;
     border-left: none;
     border-top: 2px solid var(--color-primary);
-    padding-top: 0.5rem;
+    padding-top: 1rem;
+    justify-content: center;
+  }
+
+  .hero-content {
+    padding: 1.5rem;
   }
 
   .hero-content h1 {
@@ -440,10 +474,21 @@ footer p {
 
   .hero-content .subtitle {
     font-size: 1rem;
+    margin-bottom: 1.5rem;
   }
 
-  .hero-content {
-    padding: 2rem;
+  .hero-buttons {
+    gap: 0.75rem;
+  }
+
+  .btn, .btn-secondary {
+    padding: 0.875rem 1.75rem;
+    font-size: 1rem;
+    min-width: 140px;
+  }
+
+  .container {
+    padding: 2rem 1.5rem;
   }
 
   .about-layout {
@@ -451,7 +496,7 @@ footer p {
   }
 
   .projects-grid {
-    grid-template-columns:  1fr;
+    grid-template-columns: 1fr;
   }
 
   .interest-grid {
@@ -463,18 +508,33 @@ footer p {
   }
 }
 
-@media (max-width:  480px) {
-  .hero-content h1 {
-    font-size: 1.5rem;
+/* Small Mobile Breakpoint */
+@media (max-width: 480px) {
+  .hero-content {
+    padding: 1.25rem;
   }
 
-  .btn {
+  .hero-content h1 {
+    font-size: 1.75rem;
+  }
+
+  .hero-content .subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .btn, .btn-secondary {
     padding: 0.75rem 1.5rem;
-    font-size:  1rem;
+    font-size: 0.95rem;
+    min-width: 120px;
   }
 
   .container {
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
+  }
+
+  main {
+    margin-top: 220px;
   }
 }
 

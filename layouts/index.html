@@ -35,79 +35,88 @@
   <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2.12.0/tsparticles.engine.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
   <script>
-    tsParticles.load("particles-js", {
-      particles: {
-        number: {
-          value: 80,
-          density: {
-            enable: true,
-            value_area: 800
-          }
-        },
-        color: {
-          value: "#5CAA92"
-        },
-        shape: {
-  type: ["circle", "triangle"],  // ✅ Mezcla aleatoria
-  star: {
-    nb_sides:  5
-  }
-        },
-        opacity: {
-          value: 0.6,
-          random: false
-        },
-        size: {
-          value: 4,
-          random: true
-        },
-        line_linked: {
-          enable: true,
-          distance: 150,
-          color: "#90a4ae",
-          opacity: 0.5,
-          width: 1
-        },
-        move: {
-          enable: true,
-          speed: 1,
-          direction: "none",
-          random: false,
-          straight: false,
-          out_mode: "out",
-          bounce: false
-        }
-      },
-      interactivity: {
-        detect_on: "canvas",
-        events: {
-          onhover: {
-            enable: true,
-            mode: "grab"
-          },
-          onclick: {
-            enable: true,
-            mode: "push"
-          },
-          resize: true
-        },
-        modes: {
-          grab: {
-            distance: 140,
-            line_linked: {
-              opacity: 1
+    // Function to get particle configuration based on screen width
+    function getParticleConfig() {
+      const isMobile = window.matchMedia('(max-width: 768px)').matches;
+      const particleCount = isMobile ? 30 : 80;
+
+      return {
+        particles: {
+          number: {
+            value: particleCount,
+            density: {
+              enable: true,
+              value_area: 800
             }
           },
-          push: {
-            particles_nb: 4
+          color: {
+            value: "#5CAA92"
+          },
+          shape: {
+            type: ["circle", "triangle"],  // ✅ Mezcla aleatoria
+            star: {
+              nb_sides:  5
+            }
+          },
+          opacity: {
+            value: 0.6,
+            random: false
+          },
+          size: {
+            value: 4,
+            random: true
+          },
+          line_linked: {
+            enable: true,
+            distance: 150,
+            color: "#90a4ae",
+            opacity: 0.5,
+            width: 1
+          },
+          move: {
+            enable: true,
+            speed: 1,
+            direction: "none",
+            random: false,
+            straight: false,
+            out_mode: "out",
+            bounce: false
           }
+        },
+        interactivity: {
+          detect_on: "canvas",
+          events: {
+            onhover: {
+              enable: !isMobile, // Disable hover on mobile for better performance
+              mode: "grab"
+            },
+            onclick: {
+              enable: true,
+              mode: "push"
+            },
+            resize: true
+          },
+          modes: {
+            grab: {
+              distance: isMobile ? 100 : 140,
+              line_linked: {
+                opacity: 1
+              }
+            },
+            push: {
+              particles_nb: isMobile ? 2 : 4
+            }
+          }
+        },
+        retina_detect: true,
+        background: {
+          color: "#04060B"
         }
-      },
-      retina_detect: true,
-      background: {
-        color: "#04060B"
-      }
-    });
+      };
+    }
+
+    // Load particles with initial configuration
+    tsParticles.load("particles-js", getParticleConfig());
   </script>
 </body>
 </html>
