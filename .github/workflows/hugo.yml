@@ -56,6 +56,11 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
       
+      - name: Copy standalone ACES presentation
+        run: |
+          mkdir -p public/aces
+          cp static/aces/index.html public/aces/index.html
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -71,3 +76,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
