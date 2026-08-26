@@ -2689,5 +2689,14 @@ window.QuartoSupport = function () {
       </script>
     
 
-</body></html>
+<style>
+html.static-fallback .reveal .slides { position: relative !important; transform: none !important; width: 100% !important; }
+html.static-fallback .reveal .slides > section { display: block !important; position: relative !important; visibility: visible !important; opacity: 1 !important; transform: none !important; width: 100% !important; height: auto !important; min-height: 100vh !important; }
+</style>
+<script>
+window.setTimeout(function () {
+  var ready = document.querySelector('.reveal .slides section.present');
+  if (!ready) document.documentElement.classList.add('static-fallback');
+}, 2000);
+</script>`r`n</body></html>
 
